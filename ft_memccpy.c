@@ -6,7 +6,7 @@
 /*   By: lyie <lyie@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/18 12:22:48 by lyie              #+#    #+#             */
-/*   Updated: 2020/11/26 13:18:11 by lyie             ###   ########.fr       */
+/*   Updated: 2021/04/30 12:11:48 by lyie             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ void	*ft_memccpy(void *dest, const void *src, int c, size_t n)
 	{
 		dest1[count] = src1[count];
 		if (src1[count] == (unsigned char)c)
-			return ((void *)&dest[count + 1]);
+			return ((void *)&dest1[count + 1]);
 		count++;
 	}
 	return (NULL);

@@ -6,7 +6,7 @@
 #    By: lyie <lyie@student.42.fr>                  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/11/26 15:28:45 by lyie              #+#    #+#              #
-#    Updated: 2020/11/27 18:07:11 by lyie             ###   ########.fr        #
+#    Updated: 2021/04/30 12:08:57 by lyie             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,7 +18,7 @@ OBJS = ${SRCS:.c=.o}
 
 BONUS_OBJS = ${BONUS_SRCS:.c=.o}
 
-INCLUDES = libft.h
+INCLUDES = includes/
 
 NAME = libft.a
 
